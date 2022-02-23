@@ -1,0 +1,103 @@
+
+body {
+    background: #dedfe0;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #33363e;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.App {
+    display: flex;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    padding: 50px 98px 80px;
+    background: #ffffff;
+    justify-content: space-around;
+}
+
+.rightCol {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.itemContent {
+    display: flex;
+    flex-flow: column;
+    border: 1px solid #e9e9e9;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 270px;
+}
+
+.itemContent_image {
+    position: relative;
+}
+
+.itemContent_city {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    color: white;
+    font-size: 13px;
+}
+
+.itemContent_text {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.itemContent_title {
+    color: #33363e;
+}
+
+.itemContent_text_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    margin-top: 20px;
+}
+
+.itemContent_category {
+    margin: 0;
+    color: #a6a9af;
+    font-size: 13px;
+}
+
+.itemContent_price {
+    margin: 0;
+    font-size: 16px;
+    color: #282d3b;
+}
+
+.leftCol {
+    width: 20%;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+    url('./fonts/montserrat-v14-latin_cyrillic-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+    url('./fonts/montserrat-v14-latin_cyrillic-700.woff') format('woff');
+}

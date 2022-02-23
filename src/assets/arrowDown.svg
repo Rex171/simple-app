@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="6" viewBox="0 0 10 6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #33363e;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="icn_arrow_down_copy" data-name="icn_arrow_down copy" class="cls-1" d="M319.833,298L316,301.729,312.166,298,311,299.135,316,304l5-4.864Z" transform="translate(-311 -298)"/>
+</svg>
